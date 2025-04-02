@@ -1,8 +1,23 @@
 header {
+    background-image: url('./assets/header_background.jpg');
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.app-container {
+    background-image: url('./assets/main_background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vw;
+}
+
+.main-container {
+    overflow-y: auto !important;
 }
 
 h1{
@@ -11,4 +26,14 @@ h1{
 
 h2{
     font-size: 30px;
+}
+
+.video {
+    margin: auto;
+}
+
+.text-part {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
